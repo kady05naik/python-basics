@@ -14,8 +14,8 @@ print(len(password)>=8 and " " not in password)
 # 3. Check if a user's email is not empty,
 # contains '@' 
 # and ends with '.com'
-email="k@gmail.com"
-print(email != '' and '@' in email and '.com' in email)
+email="k@.com"
+print(email !="" and '@' in email and  email.endswith('.com'))
 
 
 # 4. Check if a username is a string, 
@@ -29,7 +29,7 @@ print(username is not None and isinstance(username, str) and len(username)>5)
 # and either they're not banned or they've verified their email
 is_admin=True
 is_moderator=False
-is_banned=True
+is_banned=False
 is_verified= True
 
 print( (bool(is_admin) or bool(is_moderator)) and (is_banned != True or bool(is_verified)) ) 

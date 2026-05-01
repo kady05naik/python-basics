@@ -1,6 +1,6 @@
 # Check for even number
 
-numbers=[1,3,7,5,1]
+numbers=[1,3,7,5,6]
 
 for nr in numbers:
     if nr%2==0:

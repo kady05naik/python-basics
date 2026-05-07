@@ -28,3 +28,6 @@ name,age,role,country=person
 
 print("Unpacking...")
 print(f'Name: {name}, Age: {age}, Role: {role}, Country: {country}')
+
+c='cat'
+print(list(c))

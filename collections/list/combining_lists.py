@@ -22,6 +22,12 @@ print(com)
 
 
 letter=['a','b','c']
-num=[1,2,3]
+num=[1,2]
 com=list(zip(letter,num))
+print(com)
+
+
+letter=['a','b','c']
+num=[1,2]
+com=list(zip(letter,num,"Hello"))
 print(com)
